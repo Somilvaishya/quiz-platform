@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+ 
+/* body {
+  margin: 0;
+  padding: 0;
+  background-image: url('C:\Users\somil\OneDrive\Desktop\Capstone-Project(frontend)\quize-platform\src\images\bg1.webp'); /* Replace with your image path */
+   /* background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}  */
+
+
+/* 
+animation-part */
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  animation: colorChange 10s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    background: linear-gradient(45deg, #1a1818, #1d1e1e70);
+    background-size: 200% 200%;
+  }
+  25% {
+    background-position: right bottom;
+  }
+  50% {
+    background: linear-gradient(45deg, #1d1e1e70, #1a1818);
+    background-size: 200% 200%;
+    background-position: left top;
+  }
+  75% {
+    background-position: left bottom;
+  }
+  100% {
+    background: linear-gradient(45deg, #1a1b1b70, #1a1919);
+    background-size: 200% 200%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
